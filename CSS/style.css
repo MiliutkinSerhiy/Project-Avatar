@@ -24,3 +24,62 @@ h3 {
   width: 1px !important;
   overflow: hidden;
 }
+
+.header {
+  background-repeat: no-repeat;
+  background-image: url(./images/BackgroundHeader.png);
+  display: flex;
+  width: 1440px;
+  margin: 0 auto;
+  margin-bottom: 32px;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo {
+  width: 186px;
+  height: 72px;
+}
+
+.nav-list {
+  width: 325px;
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+}
+
+.nav-list-item {
+  color: #ffffff;
+}
+
+.header-btn {
+  width: 141px;
+  height: 41.69px;
+  text-align: center;
+  color: #26c7ea;
+  margin: 0 auto;
+  display: block;
+}
+
+.lang {
+  width: 107px;
+  text-align: center;
+  display: flex;
+  color: #ffffff;
+}
+
+.lang-text {
+}
+
+.lang-img {
+  width: 36px;
+  height: 20px;
+}
+
+.hero {
+  background-repeat: no-repeat;
+  background-image: url(/CSS/images/BackgroundHero.png);
+}
+
+.hero-text {
+}
