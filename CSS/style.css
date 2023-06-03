@@ -15,7 +15,6 @@ h3 {
 }
 
 .header {
-  box-sizing: border-box;
   background-image: linear-gradient(
       to right,
       rgba(43, 74, 97, 0.87),
@@ -23,12 +22,13 @@ h3 {
     ),
     url(../images/BackHeader.png);
   width: 1440px;
-  justify-content: space-between;
-  align-items: center;
+  display: flex;
+  /* justify-content: space-between; */
+  /* align-items: center;*/
+  padding: 39px;
 }
 
-.header-cotainer {
-  padding: ;
+.header-container {
   margin: 0 auto;
   display: flex;
   width: 1032px;
@@ -84,6 +84,10 @@ h3 {
   width: 1440px;
   background: url(../images/BackgroundHero.png);
   background-repeat: no-repeat;
+}
+
+.hero-container {
+  width: 1032px;
 }
 
 .hero-text {
