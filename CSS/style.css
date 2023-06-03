@@ -14,26 +14,24 @@ h3 {
   padding: 0;
 }
 
-.visually-hidden {
-  position: absolute !important;
-  clip: rect(1px 1px 1px 1px);
-  clip: rect(1px, 1px, 1px, 1px);
-  padding: 0 !important;
-  border: 0 !important;
-  height: 1px !important;
-  width: 1px !important;
-  overflow: hidden;
-}
-
 .header {
-  background-repeat: no-repeat;
-  background-image: url(./images/BackgroundHeader.png);
-  display: flex;
+  box-sizing: border-box;
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(../images/BackHeader.png);
   width: 1440px;
-  margin: 0 auto;
-  margin-bottom: 32px;
   justify-content: space-between;
   align-items: center;
+}
+
+.header-cotainer {
+  padding: ;
+  margin: 0 auto;
+  display: flex;
+  width: 1032px;
 }
 
 .logo {
@@ -42,6 +40,7 @@ h3 {
 }
 
 .nav-list {
+  height: 24px;
   width: 325px;
   display: flex;
   justify-content: space-between;
@@ -55,8 +54,13 @@ h3 {
 .header-btn {
   width: 141px;
   height: 41.69px;
+  left: 1095px;
+  top: 54px;
+  background: #0b0e66;
+  border: 2px solid #26c7ea;
+  border-radius: 35px 0px;
   text-align: center;
-  color: #26c7ea;
+  color: #26c6ea;
   margin: 0 auto;
   display: block;
 }
@@ -76,10 +80,48 @@ h3 {
   height: 20px;
 }
 
-.hero {
+.herro {
+  width: 1440px;
+  background: url(../images/BackgroundHero.png);
   background-repeat: no-repeat;
-  background-image: url(/CSS/images/BackgroundHero.png);
 }
 
 .hero-text {
+  color: #ffffff;
+}
+
+.hero-btn {
+  width: 260px;
+  height: 80px;
+  font-weight: 400;
+  font-size: 24px;
+  text-align: center;
+  color: #26c7ea;
+  background: #0b0e66;
+  border: 3px solid #26c7ea;
+  border-radius: 45px 0px;
+}
+
+.hero-link {
+  height: 141px;
+  width: 50px;
+}
+
+.quotes {
+  margin: 0 auto;
+  display: flex;
+}
+
+.quotes-text {
+  color: #0a3853;
+  text-align: justify;
+}
+
+.quotes-avtor {
+  text-align: center;
+  color: #000000;
+}
+
+.bigorel {
+  width: 400px;
 }
