@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Avatar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css">
     <link
       href="https://fonts.googleapis.com/css2?family=Hammersmith+One&family=Headland+One&family=Inter:wght@300;400;600&display=swap"
       rel="stylesheet"
@@ -16,38 +17,39 @@
     <header class="header">
       <div class="header-container">
         <div class="header-left">
-      <img class="logo" src="./images/logo.png" alt="" />
+      <a class="logo-link"><img class="logo" src="./images/logo.png" alt="" /></a>
       <nav class="nav">
         <ul class="nav-list">
-          <a class="nav-list-item" href="nav">Головна</a>
-          <a class="nav-list-item" href="nav">Про нас</a>
-          <a class="nav-list-item" href="nav">Контакти</a>
+          <li><a class="nav-list-item" href="nav">Головна</a></li>
+          <li><a class="nav-list-item" href="nav">Про нас</a></li>
+          <li><a class="nav-list-item" href="nav">Контакти</a></li>
         </ul>
       </nav>
     
       
       <button class="header-btn">Увійти</button>
 </div>
+</div>
       <div class="lang">
         <p class="lang-text">ENG</p>
         <img class="lang-img" src="./images/Switcher.png" alt="switcher" />
         <p class="lang-text">UA</p>
       </div>
-      </div>
+      
     </header>
 
     <main>
     <section class="herro">
       <div class="hero-container">
       <div class="hero-list">
-        <p class="hero-text">
+        <p class="hero-text1">
           Oe perlltxe hu tsamsiyu!<br />
           Ngari hu Eywa salew tirea,<br />
           tokx 'ì'awn slu Na'viyä hapxì.<br />
           Säwem nìayoeng!
         </p>
         <img class="hero-img" src="./images/Rectangle 53.png" alt="arow" />
-        <p class="hero-text">
+        <p class="hero-text2">
           Хоробрий воїне, звертаюсь до тебе!<br />
           Твій дух йде з Ейвою,<br />
           твоє тіло залишається,<br />
@@ -62,7 +64,7 @@
       <div class="hero-link">
         <ul class="hero-link-list">
         <li><a href="instagram"><img src="./images/instagram.png" alt="instagram"></a></li>
-        <li><a href="twitter"><img src="./images/twitter.png" alt="twitter"></a></li>
+        <li><a class="hero-link-list-item" href="twitter"><img src="./images/twitter.png" alt="twitter"></a></li>
         <li><a href="youtube"><img src="./images/youtube.png" alt="youtube"></a></li>
       </ul>
       </div>
@@ -72,28 +74,29 @@
     <section class="quotes">
       <blockquote class="quotes-text">
         “БАГАТО ЛЮДЕЙ З НЕБА ПРИЙДЕ. ВОНИ<br>ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ
-        НЕ ЗАКІНЧУЄТЬСЯ.” ПРИЙДУТЬ, ЯК ГРОЗА, ЯКА НІКОЛИ НЕ ЗАКІНЧУЄТЬСЯ.”
+        НЕ ЗАКІНЧУЄТЬСЯ.”
       </blockquote>
       <cite class="quotes-avtor">Джейк Саллі</cite>
       <img class="bigorel" src="./images/bigorel.png" alt="" />
     </section>
 
     <section class="section3">
-      <button>Дивитись трейлер</button>
+      <button class="section3-btn">Дивитись трейлер</button>
     </section>
 
     <section class="quotes">
       <blockquote class="quotes-text">
-        “ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
+        “ВСЯ ЕНЕРГІЯ ЛИШЕ ЗАПОЗИЧЕНА, ОДНОГО ДНЯ <br> ЇЇ ДОВЕДЕТЬСЯ ПОВЕРНУТИ.”
       </blockquote>
       <cite class="quotes-avtor">Джейк Саллі</cite>
       <img class="bigorel" src="./images/bigorel.png" alt="" />
     </section>
 
-    <section5 class="section5">
+    <section class="section5">
+      <div class="section5-container">
       <h3 class="section5-zagolovok">Вчимо мову На’ві</h3>
-      <ul>
-        <li>
+      <ul class="section5-list">
+        <li class="section5-list-item">
           <p class="section5-text">Привіт</p>
           <img
             class="section5-img"
@@ -102,7 +105,7 @@
           />
           <p class="section5-text">Kaltxì</p>
         </li>
-        <li>
+        <li class="section5-list-item">
           <p class="section5-text">Як справи?</p>
           <img
             class="section5-img"
@@ -111,7 +114,7 @@
           />
           <p class="section5-text">Ngaru lu fpom srak?</p>
         </li>
-        <li>
+        <li class="section5-list-item">
           <p class="section5-text">Все добре</p>
           <img
             class="section5-img"
@@ -120,7 +123,7 @@
           />
           <p class="section5-text">Lu fpom</p>
         </li>
-        <li>
+        <li class="section5-list-item">
           <p class="section5-text">Дякую</p>
           <img
             class="section5-img"
@@ -129,7 +132,7 @@
           />
           <p class="section5-text">Irayo si</p>
         </li>
-        <li>
+        <li class="section5-list-item">
           <p class="section5-text">Я бачу тебе</p>
           <img
             class="section5-img"
@@ -138,7 +141,7 @@
           />
           <p class="section5-text">Oel ngati kameie</p>
         </li>
-        <li>
+        <li class="section5-list-item">
           <p class="section5-text">Слідуй за мною!</p>
           <img
             class="section5-img"
@@ -148,11 +151,12 @@
           <p class="section5-text">Nong oet!</p>
         </li>
       </ul>
-    </section5>
+    </div>
+    </section>
 
     <section class="quotes">
       <blockquote class="quotes-text">
-        “НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ
+        “НАША ВЕЛИКА МАТИ НЕ СТАЄ НА ЯКУСЬ СТОРОНУ, <br> ВОНА ЗАХИЩАЄ ЛИШЕ ЖИТТЄВИЙ
         БАЛАНС.”
       </blockquote>
       <cite class="quotes-avtor">Нейтірі</cite>
