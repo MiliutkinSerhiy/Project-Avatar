@@ -260,3 +260,95 @@ body {
   height: 40px;
   margin: 4px 84px;
 }
+
+.footer {
+  background-image: linear-gradient(
+      to right,
+      rgba(43, 74, 97, 0.87),
+      rgba(43, 74, 97, 0.87)
+    ),
+    url(../images/BackFooter.png);
+  background-repeat: no-repeat;
+  padding: 0 204px 25px 204px;
+}
+
+.footer-container {
+  width: 1032px;
+  display: flex;
+  text-align: center;
+}
+
+.footer-left {
+  display: flex;
+  align-items: center;
+}
+
+.skobka {
+  width: 153px;
+  border: solid #ffffff;
+  transform: rotate(90deg);
+}
+
+.footer-logo {
+  width: 183px;
+  height: 70px;
+}
+
+.footer-right {
+  width: 689px;
+}
+
+.footer-list-item {
+  margin: 80px 0 16px 0;
+}
+
+.footer-list-item-second {
+  margin: 0 0 37px 0;
+}
+
+.footer-span {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.footer-span-second {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+
+  color: #ffffff;
+}
+
+.footer-email {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24px;
+  color: #ffffff;
+}
+
+.first-border {
+  display: inline-block;
+  width: 269px;
+  border: 2px dashed #ffffff;
+}
+
+.second-border {
+  display: inline-block;
+  width: 194px;
+  border: 2px dashed #ffffff;
+}
+
+.bottom-text {
+  font-family: "Inter";
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #ffffff;
+}
