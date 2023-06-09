@@ -18,6 +18,11 @@ body {
   margin: 0 auto;
 }
 
+.container {
+  width: 1440px;
+  margin: 0 auto;
+}
+
 .header {
   background-image: linear-gradient(
       to right,
@@ -35,7 +40,7 @@ body {
 }
 
 .header-container {
-  margin: 0 auto;
+  margin: 0 49px 0 204px;
   display: flex;
   width: 1032px;
 }
@@ -87,7 +92,7 @@ body {
   text-align: center;
   display: flex;
   color: #ffffff;
-  margin: 25px 48px 0 0;
+  margin: 25px 49px 0 0;
 }
 
 .lang-text {
@@ -103,6 +108,9 @@ body {
   width: 1440px;
   background: url(../images/BackgroundHero.png);
   background-repeat: no-repeat;
+  padding-top: 180px;
+  padding-bottom: 179px;
+  padding-left: 204px;
 }
 
 .hero-container {
@@ -111,9 +119,9 @@ body {
 }
 
 .hero-list {
-  padding-top: 180px;
+  /* padding-top: 180px;
   padding-bottom: 179px;
-  padding-left: 204px;
+  padding-left: 204px; */
   margin: 0 606px 0 0;
 }
 
@@ -121,10 +129,15 @@ body {
   color: #ffffff;
 }
 
-.hero-link {
-  padding-top: 300px;
+.hero-link-list {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  margin: 120px 0 0 0;
+  /* padding-top: 300px;
   padding-bottom: 299px;
-  padding-right: 204px;
+  padding-right: 204px; */
 }
 
 .hero-link-list-item {
@@ -149,11 +162,6 @@ body {
   border-radius: 45px 0px;
 }
 
-.hero-link {
-  height: 141px;
-  width: 50px;
-}
-
 .quotes {
   flex-direction: column;
   margin: 0 auto;
@@ -172,12 +180,13 @@ body {
 }
 
 .quotes-avtor {
+  font-style: normal;
   font-weight: 400;
   font-size: 24px;
   line-height: 29px;
   text-align: center;
   color: #000000;
-  margin: 0 0 8px 0;
+  margin: 16px 0 8px 0;
 }
 
 .bigorel {
@@ -208,7 +217,7 @@ body {
   width: 1440px;
   background: url(../images/BackSection5.png);
   background-repeat: no-repeat;
-  padding: 57px 204px;
+  padding: 48px 0 43px 0;
 }
 
 .section5-zagolovok {
@@ -216,22 +225,38 @@ body {
   font-size: 32px;
   line-height: 40px;
   text-align: center;
+  margin: 0 0 45px 0;
   color: #141414;
 }
 
-.section5-container {
-  width: 1032px;
+.section5-list {
   display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.section5-container {
+  margin: 0 auto;
+  width: 1068px;
 }
 
 .section5-list-item {
-  display: flex;
-  align-items: center;
   width: 320px;
+  height: 240px;
   background: rgba(255, 255, 255, 0.7);
+  margin: 0 0 24px 0;
+}
+
+.section5-text {
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 24px;
+  margin: 36px 0;
 }
 
 .section5-img {
   width: 152px;
   height: 40px;
+  margin: 4px 84px;
 }
